@@ -62,3 +62,25 @@
 //   ));
 //   return <ul>{listItems}</ul>; // 리턴하는 값을 화면에 보여줌
 // }
+
+// import { useState } from 'react'; //컴포넌트가 특정 정보를 기억하려고 할 때 추가
+
+// export default function MyApp() {
+//   return (
+//     <div>
+//       <h1>Counters that update separately</h1>
+//       <MyButton1 />
+//       <MyButton1 /> 버튼 2개 생성
+//     </div>
+//   );
+// }
+
+// function MyButton1() {
+//   const [count, setCount] = useState(0);
+
+//   function handleClick() {
+//     setCount(count + 1);
+//   }
+
+//   return <button onClick={handleClick}>Clicked {count} times</button>; //버튼 만들기
+// }

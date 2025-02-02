@@ -1,0 +1,14 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.title {
+  color: #333;
+  font-size: 2rem;
+}
+
+.input {
+  padding: 8px;
+  font-size: 1rem;
+}

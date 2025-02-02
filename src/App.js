@@ -84,3 +84,17 @@
 
 //   return <button onClick={handleClick}>Clicked {count} times</button>; //버튼 만들기
 // }
+
+import React from "react";
+import styles from "./test.module.css" // 패키지 파일이 아니라 ./로 로컬 파일임을 명시
+
+export default function MyApp(){
+  return(
+    <div className={styles.container}>
+      <h1 className={styles.title}>테스트사이트</h1>
+
+      <input type="text" placeholder="입력창입니다" className={styles.input}></input>
+
+    </div>
+  );
+}
